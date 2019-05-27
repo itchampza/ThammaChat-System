@@ -39,7 +39,7 @@
         <div class="sidebar-menu">
             <div class="sidebar-header">
                 <div class="logo">
-                    <a href="fetchProduction.html"><img src="assets/images/icon/logo.png" alt="logo"></a>
+                    <a href="fetchProduction.php"><img src="assets/images/icon/logo.png" alt="logo"></a>
                 </div>
             </div>
             <div class="main-menu">
@@ -51,63 +51,63 @@
                                 <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-database"></i><span>จัดการข้อมูลผลิต</span></a>
                                 <ul class="collapse">
                                      <!-- ดู -->
-                                    <li><a href="fetchProduction.html">แสดงข้อมูลการผลิต</a></li>
+                                    <li><a href="fetchProduction.php">แสดงข้อมูลการผลิต</a></li>
                                      <!-- เพิ่ม -->
-                                    <li class="active"> <a href="insertProduction.html">เพิ่มข้อมูลการผลิต</a></li>
+                                    <li class="active"> <a href="insertProduction.php">เพิ่มข้อมูลการผลิต</a></li>
                                 </ul>
                             </li>
                             <li>
                                 <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-file-text"></i><span>จัดการข้อมูลการสั่งซื้อน้ำดื่ม</span></a>
                                 <ul class="collapse">
                                      <!-- ดู -->
-                                     <li><a href="/orderingProduction/fetchOrdering.html">แสดงข้อมูลสั่งซื้อน้ำดื่ม</a></li>
+                                     <li><a href="/orderingProduction/fetchOrdering.php">แสดงข้อมูลสั่งซื้อน้ำดื่ม</a></li>
                                      <!-- เพิ่ม -->
-                                    <li><a href="/orderingProduction/insertOrdering.html">เพิ่มข้อมูลสั่งซื้อน้ำดื่ม</a></li>
+                                    <li><a href="/orderingProduction/insertOrdering.php">เพิ่มข้อมูลสั่งซื้อน้ำดื่ม</a></li>
                                 </ul>
                             </li>
                             <li>
                                 <a href="javascript:void(0)" aria-expanded="true"><i class="ti-pie-chart"></i><span>จัดการรับเข้าวัตถุดิบการผลิต</span></a>
                                 <ul class="collapse">
                                      <!-- ดู -->
-                                     <li><a href="/importMaterialProduction/fetchImportMataerialProduct.html">แสดงข้อมูลรับเข้าวัตถุดิบการผลิต</a></li>
+                                     <li><a href="/importMaterialProduction/fetchImportMataerialProduct.php">แสดงข้อมูลรับเข้าวัตถุดิบการผลิต</a></li>
                                      <!-- เพิ่ม -->
-                                    <li><a href="/importMaterialProduction/insertImportMataerialProduct.html">เพิ่มข้อมูลรับเข้าวัตถุดิบการผลิต</a></li>
+                                    <li><a href="/importMaterialProduction/insertImportMataerialProduct.php">เพิ่มข้อมูลรับเข้าวัตถุดิบการผลิต</a></li>
                                 </ul>
                             </li>
                             <li>
                                 <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-folder-open"></i><span>จัดการรับเข้าน้ำดื่ม</span></a>
                                 <ul class="collapse">
                                       <!-- ดู -->
-                                      <li><a href="/importProduct/fetchImportProduct.html">แสดงข้อมูลรับเข้าน้ำดื่ม</a></li>
+                                      <li><a href="/importProduct/fetchImportProduct.php">แสดงข้อมูลรับเข้าน้ำดื่ม</a></li>
                                       <!-- เพิ่ม -->
-                                     <li><a href="/importProduct/insertImportProduct.html">เพิ่มข้อมูลรับเข้าน้ำดื่ม</a></li>
+                                     <li><a href="/importProduct/insertImportProduct.php">เพิ่มข้อมูลรับเข้าน้ำดื่ม</a></li>
                                 </ul>
                             </li>
                             <li>
                                 <a href="javascript:void(0)" aria-expanded="true"><i class="ti-receipt"></i><span>จัดการขายน้ำดื่ม</span></a>
                                 <ul class="collapse">
                                    <!-- ดู -->
-                                   <li><a href="/sell/fetchSell.html">แสดงข้อมูลขายน้ำดื่ม</a></li>
+                                   <li><a href="/sell/fetchSell.php">แสดงข้อมูลขายน้ำดื่ม</a></li>
                                    <!-- เพิ่ม -->
-                                  <li><a href="/sell/insertSell.html">เพิ่มข้อมูลขายน้ำดื่ม</a></li>
+                                  <li><a href="/sell/insertSell.php">เพิ่มข้อมูลขายน้ำดื่ม</a></li>
                                 </ul>
                             </li>
                             <li>
                                 <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-truck"></i><span>จัดการส่งน้ำดื่ม</span></a>
                                 <ul class="collapse">
                                     <!-- ดู -->
-                                    <li><a href="/transport/fetchTransport.html">แสดงข้อมูลส่งน้ำดื่ม</a></li>
+                                    <li><a href="/transport/fetchTransport.php">แสดงข้อมูลส่งน้ำดื่ม</a></li>
                                     <!-- เพิ่ม -->
-                                   <li><a href="/transport/insertTransport.html">เพิ่มข้อมูลส่งน้ำดื่ม</a></li>
+                                   <li><a href="/transport/insertTransport.php">เพิ่มข้อมูลส่งน้ำดื่ม</a></li>
                                 </ul>
                             </li>
                             <li>
                                 <a href="javascript:void(0)" aria-expanded="true"><i class="ti-layers-alt"></i> <span>จัดการเบิก-จ่ายน้ำดื่ม</span></a>
                                 <ul class="collapse">
                                     <!-- ดู -->
-                                    <li><a href="/disburseProduct/fetchDisburse.html">แสดงข้อมูลเบิก-จ่ายน้ำดื่ม</a></li>
+                                    <li><a href="/disburseProduct/fetchDisburse.php">แสดงข้อมูลเบิก-จ่ายน้ำดื่ม</a></li>
                                     <!-- เพิ่ม -->
-                                   <li><a href="/disburseProduct/insertDisburse.html">เพิ่มข้อมูลเบิก-จ่ายน้ำดื่ม</a></li>
+                                   <li><a href="/disburseProduct/insertDisburse.php">เพิ่มข้อมูลเบิก-จ่ายน้ำดื่ม</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -146,7 +146,7 @@
                         <div class="breadcrumbs-area clearfix">
                             <h4 class="page-title pull-left">Dashboard</h4>
                             <ul class="breadcrumbs pull-left">
-                                <li><a href="fetchProduction.html">Page</a></li>
+                                <li><a href="fetchProduction.php">Page</a></li>
                                 <li><span>เพิ่มข้อมูลการผลิต</span></li>
                             </ul>
                         </div>
@@ -177,7 +177,7 @@
                                                         <h5 class="title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, dicta.</h5>
                                                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia adipisci quidem, quam nam reiciendis facere blanditiis atque neque architecto omnis magni totam, voluptate maiores, iusto molestias incidunt unde nesciunt cum.
                                                         </p>
-                                                        <a href="detailProduction.html?id=1" class="btn btn-primary">เลือกวัตถุดิบ</a>
+                                                        <a href="detailProduction.php?id=1" class="btn btn-primary">เลือกวัตถุดิบ</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -188,7 +188,7 @@
                                                         <h5 class="title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, dicta.</h5>
                                                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia adipisci quidem, quam nam reiciendis facere blanditiis atque neque architecto omnis magni totam, voluptate maiores, iusto molestias incidunt unde nesciunt cum.
                                                         </p>
-                                                        <a href="detailProduction.html?id=1" class="btn btn-primary">เลือกวัตถุดิบ</a>
+                                                        <a href="detailProduction.php?id=1" class="btn btn-primary">เลือกวัตถุดิบ</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -199,7 +199,7 @@
                                                         <h5 class="title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, dicta.</h5>
                                                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia adipisci quidem, quam nam reiciendis facere blanditiis atque neque architecto omnis magni totam, voluptate maiores, iusto molestias incidunt unde nesciunt cum.
                                                         </p>
-                                                        <a href="detailProduction.html?id=1" class="btn btn-primary">เลือกวัตถุดิบ</a>
+                                                        <a href="detailProduction.php?id=1" class="btn btn-primary">เลือกวัตถุดิบ</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -210,7 +210,7 @@
                                                         <h5 class="title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, dicta.</h5>
                                                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia adipisci quidem, quam nam reiciendis facere blanditiis atque neque architecto omnis magni totam, voluptate maiores, iusto molestias incidunt unde nesciunt cum.
                                                         </p>
-                                                        <a href="detailProduction.html?id=1" class="btn btn-primary">เลือกวัตถุดิบ</a>
+                                                        <a href="detailProduction.php?id=1" class="btn btn-primary">เลือกวัตถุดิบ</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -221,7 +221,7 @@
                                                         <h5 class="title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, dicta.</h5>
                                                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia adipisci quidem, quam nam reiciendis facere blanditiis atque neque architecto omnis magni totam, voluptate maiores, iusto molestias incidunt unde nesciunt cum.
                                                         </p>
-                                                        <a href="detailProduction.html?id=1" class="btn btn-primary">เลือกวัตถุดิบ</a>
+                                                        <a href="detailProduction.php?id=1" class="btn btn-primary">เลือกวัตถุดิบ</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -232,7 +232,7 @@
                                                         <h5 class="title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, dicta.</h5>
                                                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia adipisci quidem, quam nam reiciendis facere blanditiis atque neque architecto omnis magni totam, voluptate maiores, iusto molestias incidunt unde nesciunt cum.
                                                         </p>
-                                                        <a href="detailProduction.html?id=1" class="btn btn-primary">เลือกวัตถุดิบ</a>
+                                                        <a href="detailProduction.php?id=1" class="btn btn-primary">เลือกวัตถุดิบ</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -243,7 +243,7 @@
                                                         <h5 class="title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, dicta.</h5>
                                                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia adipisci quidem, quam nam reiciendis facere blanditiis atque neque architecto omnis magni totam, voluptate maiores, iusto molestias incidunt unde nesciunt cum.
                                                         </p>
-                                                        <a href="detailProduction.html?id=1" class="btn btn-primary">เลือกวัตถุดิบ</a>
+                                                        <a href="detailProduction.php?id=1" class="btn btn-primary">เลือกวัตถุดิบ</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -254,7 +254,7 @@
                                                         <h5 class="title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, dicta.</h5>
                                                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia adipisci quidem, quam nam reiciendis facere blanditiis atque neque architecto omnis magni totam, voluptate maiores, iusto molestias incidunt unde nesciunt cum.
                                                         </p>
-                                                        <a href="detailProduction.html?id=1" class="btn btn-primary">เลือกวัตถุดิบ</a>
+                                                        <a href="detailProduction.php?id=1" class="btn btn-primary">เลือกวัตถุดิบ</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -265,7 +265,7 @@
                                                         <h5 class="title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, dicta.</h5>
                                                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia adipisci quidem, quam nam reiciendis facere blanditiis atque neque architecto omnis magni totam, voluptate maiores, iusto molestias incidunt unde nesciunt cum.
                                                         </p>
-                                                        <a href="detailProduction.html?id=1" class="btn btn-primary">เลือกวัตถุดิบ</a>
+                                                        <a href="detailProduction.php?id=1" class="btn btn-primary">เลือกวัตถุดิบ</a>
                                                     </div>
                                                 </div>
                                             </div>
